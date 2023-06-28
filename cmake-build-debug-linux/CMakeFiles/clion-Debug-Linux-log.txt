@@ -1,16 +1,4 @@
 /home/minimumadhd/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/minimumadhd/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/ninja/linux/x64/ninja -DCMAKE_C_COMPILER=/bin/x86_64-linux-gnu-gcc -DCMAKE_CXX_COMPILER=/bin/x86_64-linux-gnu-g++ -G Ninja -S /home/minimumadhd/CLionProjects/PasswordGenerator -B /home/minimumadhd/CLionProjects/PasswordGenerator/cmake-build-debug-linux
--- The C compiler identification is GNU 9.4.0
--- The CXX compiler identification is GNU 9.4.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /bin/x86_64-linux-gnu-gcc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /bin/x86_64-linux-gnu-g++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/minimumadhd/CLionProjects/PasswordGenerator/cmake-build-debug-linux

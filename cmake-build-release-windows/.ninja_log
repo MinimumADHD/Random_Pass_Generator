@@ -1,7 +1,8 @@
 # ninja log v5
 0	394	1687966590383631998	CMakeFiles/PasswordGenerator.dir/main.cpp.o	4299d0184acfaa80
-0	14	1687967291988922384	build.ninja	7f4b3fe3592ba3f5
+0	17	1687967553207631725	build.ninja	7f4b3fe3592ba3f5
 0	2	0	clean	d35640a4024b3d1a
 394	411	0	PasswordGenerator	902fc0e92cce8d6
-0	17	1687967291988922384	build.ninja	7f4b3fe3592ba3f5
-0	2	0	clean	d35640a4024b3d1a
+0	1	0	clean	d35640a4024b3d1a
+1	362	1687967563504621705	CMakeFiles/PasswordGenerator.dir/main.cpp.o	4299d0184acfaa80
+362	463	0	PasswordGenerator	3bace6a5d83992f4

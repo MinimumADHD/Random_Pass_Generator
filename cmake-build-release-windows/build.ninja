@@ -65,7 +65,7 @@ build CMakeFiles/PasswordGenerator.dir/main.cpp.o: CXX_COMPILER__PasswordGenerat
 
 build PasswordGenerator: CXX_EXECUTABLE_LINKER__PasswordGenerator_Release CMakeFiles/PasswordGenerator.dir/main.cpp.o
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -lbingitup
+  LINK_FLAGS = -static
   OBJECT_DIR = CMakeFiles/PasswordGenerator.dir
   POST_BUILD = :
   PRE_LINK = :
