@@ -1,0 +1,3 @@
+/home/minimumadhd/CLionProjects/PasswordGenerator/cmake-build-release-macos/CMakeFiles/PasswordGenerator.dir
+/home/minimumadhd/CLionProjects/PasswordGenerator/cmake-build-release-macos/CMakeFiles/edit_cache.dir
+/home/minimumadhd/CLionProjects/PasswordGenerator/cmake-build-release-macos/CMakeFiles/rebuild_cache.dir

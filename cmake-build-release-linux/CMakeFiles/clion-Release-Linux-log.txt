@@ -1,0 +1,4 @@
+/home/minimumadhd/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/home/minimumadhd/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/ninja/linux/x64/ninja -DCMAKE_C_COMPILER=/bin/x86_64-linux-gnu-gcc -DCMAKE_CXX_COMPILER=/bin/x86_64-linux-gnu-g++ -G Ninja -S /home/minimumadhd/CLionProjects/PasswordGenerator -B /home/minimumadhd/CLionProjects/PasswordGenerator/cmake-build-release-linux
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/minimumadhd/CLionProjects/PasswordGenerator/cmake-build-release-linux

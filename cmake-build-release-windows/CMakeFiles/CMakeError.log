@@ -1,0 +1,117 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/minimumadhd/CLionProjects/PasswordGenerator/cmake-build-release-windows/CMakeFiles/CMakeScratch/TryCompile-jl0KCE
+
+Run Build Command(s):/home/minimumadhd/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/ninja/linux/x64/ninja cmTC_4637c && [1/2] Building C object CMakeFiles/cmTC_4637c.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/bin/i686-w64-mingw32-gcc
+Target: i686-w64-mingw32
+Configured with: ../../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/include' --mandir='/usr/share/man' --infodir='/usr/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers=/usr/i686-w64-mingw32/include --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32 --program-prefix=i686-w64-mingw32- --target=i686-w64-mingw32 --with-as=/usr/bin/i686-w64-mingw32-as --with-ld=/usr/bin/i686-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking
+Thread model: win32
+gcc version 9.3-win32 20200320 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_4637c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=pentiumpro'
+ /usr/lib/gcc/i686-w64-mingw32/9.3-win32/cc1 -quiet -v -U_REENTRANT /home/minimumadhd/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_4637c.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -o /tmp/ccXBpf5m.s
+GNU C17 (GCC) version 9.3-win32 20200320 (i686-w64-mingw32)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-w64-mingw32/9.3-win32/include
+ /usr/lib/gcc/i686-w64-mingw32/9.3-win32/include-fixed
+ /usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/include
+End of search list.
+GNU C17 (GCC) version 9.3-win32 20200320 (i686-w64-mingw32)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f643ac63912c411ad04eb4ca291f161e
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_4637c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=pentiumpro'
+ /usr/bin/i686-w64-mingw32-as -v -o CMakeFiles/cmTC_4637c.dir/CMakeCCompilerABI.c.o /tmp/ccXBpf5m.s
+GNU assembler version 2.34 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.34
+COMPILER_PATH=/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib/../lib/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_4637c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=pentiumpro'
+[2/2] Linking C executable cmTC_4637c
+Using built-in specs.
+COLLECT_GCC=/bin/i686-w64-mingw32-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-w64-mingw32/9.3-win32/lto-wrapper
+Target: i686-w64-mingw32
+Configured with: ../../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/include' --mandir='/usr/share/man' --infodir='/usr/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers=/usr/i686-w64-mingw32/include --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32 --program-prefix=i686-w64-mingw32- --target=i686-w64-mingw32 --with-as=/usr/bin/i686-w64-mingw32-as --with-ld=/usr/bin/i686-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking
+Thread model: win32
+gcc version 9.3-win32 20200320 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib/../lib/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4637c.exe' '-mtune=generic' '-march=pentiumpro'
+ /usr/lib/gcc/i686-w64-mingw32/9.3-win32/collect2 -plugin /usr/lib/gcc/i686-w64-mingw32/9.3-win32/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-w64-mingw32/9.3-win32/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbsTmyH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic -o cmTC_4637c.exe /usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/i686-w64-mingw32/9.3-win32/crtbegin.o -L/usr/lib/gcc/i686-w64-mingw32/9.3-win32 -L/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib/../lib -L/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib CMakeFiles/cmTC_4637c.dir/CMakeCCompilerABI.c.o -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/i686-w64-mingw32/9.3-win32/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4637c.exe' '-mtune=generic' '-march=pentiumpro'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  '/home/minimumadhd/CLionProjects/PasswordGenerator/cmake-build-release-windows/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin'
+Recorded try_compile output location doesn't exist:
+  /home/minimumadhd/CLionProjects/PasswordGenerator/cmake-build-release-windows/CMakeFiles/CMakeScratch/TryCompile-jl0KCE/cmTC_4637c
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/minimumadhd/CLionProjects/PasswordGenerator/cmake-build-release-windows/CMakeFiles/CMakeScratch/TryCompile-C7vVKD
+
+Run Build Command(s):/home/minimumadhd/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/ninja/linux/x64/ninja cmTC_f0904 && [1/2] Building CXX object CMakeFiles/cmTC_f0904.dir/CMakeCXXCompilerABI.cpp.o
+Using built-in specs.
+COLLECT_GCC=/bin/i686-w64-mingw32-g++
+Target: i686-w64-mingw32
+Configured with: ../../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/include' --mandir='/usr/share/man' --infodir='/usr/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers=/usr/i686-w64-mingw32/include --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32 --program-prefix=i686-w64-mingw32- --target=i686-w64-mingw32 --with-as=/usr/bin/i686-w64-mingw32-as --with-ld=/usr/bin/i686-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking
+Thread model: win32
+gcc version 9.3-win32 20200320 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f0904.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+ /usr/lib/gcc/i686-w64-mingw32/9.3-win32/cc1plus -quiet -v -U_REENTRANT /home/minimumadhd/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_f0904.dir/CMakeCXXCompilerABI.cpp.o -version -fdiagnostics-color=always -o /tmp/ccYk9fZg.s
+GNU C++14 (GCC) version 9.3-win32 20200320 (i686-w64-mingw32)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i686-w64-mingw32/9.3-win32/include/c++
+ /usr/lib/gcc/i686-w64-mingw32/9.3-win32/include/c++/i686-w64-mingw32
+ /usr/lib/gcc/i686-w64-mingw32/9.3-win32/include/c++/backward
+ /usr/lib/gcc/i686-w64-mingw32/9.3-win32/include
+ /usr/lib/gcc/i686-w64-mingw32/9.3-win32/include-fixed
+ /usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/include
+End of search list.
+GNU C++14 (GCC) version 9.3-win32 20200320 (i686-w64-mingw32)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 264e11de615153a2bfa7f7ac7b658371
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f0904.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+ /usr/bin/i686-w64-mingw32-as -v -o CMakeFiles/cmTC_f0904.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYk9fZg.s
+GNU assembler version 2.34 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.34
+COMPILER_PATH=/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib/../lib/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f0904.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+[2/2] Linking CXX executable cmTC_f0904
+Using built-in specs.
+COLLECT_GCC=/bin/i686-w64-mingw32-g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-w64-mingw32/9.3-win32/lto-wrapper
+Target: i686-w64-mingw32
+Configured with: ../../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/include' --mandir='/usr/share/man' --infodir='/usr/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers=/usr/i686-w64-mingw32/include --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32 --program-prefix=i686-w64-mingw32- --target=i686-w64-mingw32 --with-as=/usr/bin/i686-w64-mingw32-as --with-ld=/usr/bin/i686-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking
+Thread model: win32
+gcc version 9.3-win32 20200320 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-w64-mingw32/9.3-win32/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib/../lib/:/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0904.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+ /usr/lib/gcc/i686-w64-mingw32/9.3-win32/collect2 -plugin /usr/lib/gcc/i686-w64-mingw32/9.3-win32/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-w64-mingw32/9.3-win32/lto-wrapper -plugin-opt=-fresolution=/tmp/cc924iKS.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic -o cmTC_f0904.exe /usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/i686-w64-mingw32/9.3-win32/crtbegin.o -L/usr/lib/gcc/i686-w64-mingw32/9.3-win32 -L/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib/../lib -L/usr/lib/gcc/i686-w64-mingw32/9.3-win32/../../../../i686-w64-mingw32/lib CMakeFiles/cmTC_f0904.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/i686-w64-mingw32/9.3-win32/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0904.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  '/home/minimumadhd/CLionProjects/PasswordGenerator/cmake-build-release-windows/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin'
+Recorded try_compile output location doesn't exist:
+  /home/minimumadhd/CLionProjects/PasswordGenerator/cmake-build-release-windows/CMakeFiles/CMakeScratch/TryCompile-C7vVKD/cmTC_f0904
+
+
